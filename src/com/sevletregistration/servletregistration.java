@@ -24,6 +24,7 @@ public class servletregistration extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		 PrintWriter out = response.getWriter();
 		 System.out.println("Working");
+		 System.out.println("Hello Servlet");
 	}
 
 }
